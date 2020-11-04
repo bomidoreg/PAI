@@ -14,7 +14,14 @@
         alert(text.toUpperCase()); //duże literki
         alert("Małe literki");
         alert(text.toLowerCase()); //małe literki
-
+        alert("Wpisany tekst rozpocznę od znaku o indexie 4");
+        alert(text.substr(4));
+        alert("Wyświetlam kawałek tekstu od znaku o indexie 2 o długości 5 znaków")
+        alert(text.substr(2, 5));
+        alert("Wyświetlam kawałek tekstu od znaku o indexie 2 ale tym razem DO znaku o indexie 5")
+        alert(text.substring(2, 5));
+        alert("A jak w kodzie zamienię kolejnością to i tak wyjdzie to samo")
+        alert(text.substring(5, 2));
     </script>
 </body>
 </html>
